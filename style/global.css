@@ -1,0 +1,194 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+html {
+    position: relative;
+    min-height: 100%;
+  }
+/*Colors:
+#91BED4 blue
+#D9E8F5 light blue
+#FFFFFF white
+#334561 dark blue
+#FF9442 orange
+*/
+
+
+/************** header nav *****************/
+
+
+
+/******** Sign up and log in border *******/
+
+html {
+    min-height: 100%;
+}
+
+.sidebar {
+    display: inline-block;
+    text-align: left;
+}
+
+.side-border {
+    position: relative;
+    display: inline-block;
+    padding: 0 130px;
+}
+
+.side-border:before,
+.side-border:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+    background-color: #FF9442;
+}
+
+.modal-header a {
+    color: #D9E8F5;
+}
+
+.btn-primary{
+    background-color: #334561 !important;
+    border-color: #334561 !important;
+}
+
+.modal-header {
+    background-color: #334561;
+    padding: 0.5rem 1rem !important;
+}
+
+.side-border:before {
+    left: 0;
+}
+
+.side-border:after {
+    right: 0;
+}
+
+.form-group label {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.container-login {
+    width: 100% !important;
+}
+
+
+@media (min-width: 769px) { 
+    .container-login {
+        width: 75% !important;
+    }
+ }
+@media (min-width: 1200px) { 
+    .container-login {
+        width: 50% !important;
+    }
+ }
+
+/*************  Forms ***************/
+form .row {
+    padding: 0.5rem 0;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.task-filters .form-control {
+    border: 2px solid #91BED4 !important;
+}
+
+
+/*************  Table ***************/
+.table-dark{
+    --bs-table-bg: #334561 !important;
+}
+
+/*************  landing.php ***************/
+
+
+/* #footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+
+#footer nav{
+    right: 0;
+    margin-right: 5%;
+}
+
+/* #footer nav .nav-link{
+    display: inline !important;
+}
+ */
+
+
+/*****Task-Board Sidebar****/
+
+
+
+
+/********** Contact us ***********/
+.label{
+
+    /* display: block !important; */
+    text-align: left !important;
+}
+
+.errorMsg{
+    color:red !important;
+}
+
+/************ FAQ ***************/
+.submitBtn{
+    width: 100% !important;
+}
+
+.faqContainer{
+
+    text-align: left !important;
+}
+
+
+/************ dropdown ***************/
+
+.dropdown .dropdown-menu a{
+    color: #000; 
+} 
+.dropdown .btn {
+    background: #FF9442; color:#fff;
+}
+.dropdown .btn:hover {
+    background: #FF9442; color:#fff;
+}
+.dropdown .btn:active {
+    background: #FF9442; color:#fff;
+}
+.dropdown .btn:focus {
+    background: #FF9442; color:#fff;
+}
+.dropdown-menu div {
+    display: block; 
+    width: 100%; 
+    padding: 10px 5px;
+    text-align: center;
+
+}
+
+.dropdown-menu a:hover {
+  color: #FF9442;
+
+}
+
+.text-left {
+    text-align: left;
+}
